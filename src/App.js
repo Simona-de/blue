@@ -1,23 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <form>
+          <input type="text" id="city" />
+          <input type="submit" value="search" />
+        </form>
+        <h1>Arvore</h1>
+        <div>
+          {" "}
+          <img
+            src="https://icon-library.net/images/weather-sun-icon/weather-sun-icon-4.jpg"
+            alt="icon"
+          ></img>
+          <p>
+            <div>12</div>
+            <div>°C</div>|<div>°F</div>
+          </p>
+        </div>
+        <div className="col-row">
+          <div className="col-2">Mon</div>
+          <div className="col-2">Tue</div>
+          <div className="col-2">Wne</div>
+          <div className="col-">The</div>
+          <div className="col-">Fri</div>
+          <div className="col-2">Sat</div>
+          <div className="col-2">Sun</div>
+        </div>
       </header>
     </div>
   );
