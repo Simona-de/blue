@@ -17,16 +17,16 @@ function App() {
             src="https://icon-library.net/images/weather-sun-icon/weather-sun-icon-4.jpg"
             alt="icon"
           ></img>
-          <p>
-            <div>12</div>
-            <div>°C</div>|<div>°F</div>
-          </p>
+          <span className="temperature">12</span>
+          <span className="celsius">°C</span>|<span className="far">°F</span>
         </div>
-        <div className="col-row">
+        <br /> <br />
+        <div className="row">
           <div className="col-2">Mon</div>
           <div className="col-2">Tue</div>
           <div className="col-2">Wne</div>
           <div className="col-">The</div>
+
           <div className="col-">Fri</div>
           <div className="col-2">Sat</div>
           <div className="col-2">Sun</div>
