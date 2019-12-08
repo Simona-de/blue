@@ -19,5 +19,5 @@ img {
   font-size: 60px;
 }
 input {
-  appearance: none;
+  border: null;
 }
